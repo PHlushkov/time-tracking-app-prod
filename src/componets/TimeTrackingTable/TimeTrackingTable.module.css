@@ -1,0 +1,29 @@
+.dayOfTheWeek {
+  background-color: rgb(235, 252, 252);
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+
+  padding: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: antiquewhite;
+  }
+}
+
+.dayOfTheWeek.selected {
+  background-color: rgb(136, 235, 136);
+  color: white;
+}
+
+.total__time {
+  background-color: rgb(235, 252, 252);
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}

@@ -1,0 +1,13 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  align-items: center;
+}
+
+.task__nav {
+  display: flex;
+  gap: 10px;
+  width: 330px;
+  justify-content: space-between;
+}

@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navigation__buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.navigation__right {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.navigation__calendar {
+  display: none;
+}
+
+.navigation__calendarActive {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: -140px;
+}
